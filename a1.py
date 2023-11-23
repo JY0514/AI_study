@@ -23,3 +23,17 @@ print(a, b, c)
 # 아스키코드 변환
 ord(str) => int
 chr(int) => str
+
+# 알고리즘 예제: 김치찌개 만들기 (실행은 안됨)
+def create_food(kimchi):
+
+    clean_pot()         # 1.냄비 닦기
+    prepare_pot(kimchi) # 2. 냄비에 김치와 김칫국물 넣기
+    heat_pot()          # 3. 냄비 끓이기
+    add_pot(seasoning)  # 4. 양념 넣기
+
+kimchi_stew = create_food(kimchi)
+eat(kimchi_stew)
+
+# 알고리즘 성능 표기법
+# 대문자 O 표기법
