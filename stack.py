@@ -24,3 +24,7 @@ for index in range(10):
     push(index)
 
 pop()
+
+
+# 배열을 사용하여 스택 구현
+

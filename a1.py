@@ -26,7 +26,6 @@ chr(int) => str
 
 # 알고리즘 예제: 김치찌개 만들기 (실행은 안됨)
 def create_food(kimchi):
-
     clean_pot()         # 1.냄비 닦기
     prepare_pot(kimchi) # 2. 냄비에 김치와 김칫국물 넣기
     heat_pot()          # 3. 냄비 끓이기
