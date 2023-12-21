@@ -28,3 +28,14 @@ pop()
 
 # 배열을 사용하여 스택 구현
 
+# 가장 나중에 쌓은 데이터 가장 먼저 뺄수 있는 데이터 구조 LIFO(Last-in, First-out)방식
+
+# 리스트로 스택 구현
+class ListStack:
+    def __int__(self):
+        self.my_list = list()
+    def push(self, data):
+        self.my_list.append(data)
+    def pop(self):
+        return self.my_list.pop()
+# Linked List

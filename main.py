@@ -14,3 +14,11 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# 시간복잡도와 공간복잡도
+# for(i=0; i<len; i++){
+#     if(ar[i] == target)
+#     return i;
+# }
+
+#  https://wikidocs.net/16577 데이터분석관련............ 나중에 ..
+
